@@ -1,0 +1,44 @@
+.cabeçalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.cabelaçho__imagem-netflix{
+    width: 100px;
+    height: 40px;
+    padding: 1em 3em;
+}
+
+.cabeçalho__menu{
+    display: flex;
+    flex-direction: row;
+    padding: 2em 5em;
+}
+
+.cabeçalho__menu-navegação{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 3em;
+}
+
+.cabeçalho__link{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.cabeçalho__menu-conta{
+    padding: 1em 3em;
+}
+
+.cabeçalho__menu-perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2em;
+}

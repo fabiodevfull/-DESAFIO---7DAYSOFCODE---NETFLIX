@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 13em 5em ;
+    gap: 1em;
+}
+
+.container__imagme-nome-filme{
+    width: 600px;
+}
+
+.container__paragrafo{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    width: 480px;
+}
+
+.container__botões{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+
+.container__botão-assistir{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 1px;
+    padding: 1em 3.5em;
+    color: black;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.container__botão-informações{
+    text-decoration: none;
+    border: 1px solid #A9A9A9;
+    border-radius: 1px;
+    padding: 1em 6em;
+    color: white;
+    background-color: #A9A9A9;
+    font-size: 16px;
+    font-weight: 600;
+}

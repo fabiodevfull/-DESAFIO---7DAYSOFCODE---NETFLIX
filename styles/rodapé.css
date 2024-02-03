@@ -1,0 +1,52 @@
+.rodapé {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 8em;
+    gap: 3em;
+}
+
+.rodapé__redes {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.rodapé__icons {
+    width: 30px;
+}
+
+.rodapé__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rodapé__caixas-lista{
+    display: flex;
+    flex-direction: column;
+}
+
+.rodapé__links-lista{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.rodapé__links-links{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.rodapé__botão-botão{
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    padding: 1em 1em;
+}
+
+.rodapé__paragrago{
+    color: #ffffff;
+    font-size: 12px;
+}

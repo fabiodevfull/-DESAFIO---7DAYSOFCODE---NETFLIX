@@ -1,0 +1,11 @@
+@import url(/styles/banner.css);
+@import url(/styles/cabeçalho.css);
+@import url(/styles/container.css);
+@import url(/styles/rodapé.css);
+
+body{
+    background-color: black;
+    background-image: url(/assets/banner\ 1.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

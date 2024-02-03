@@ -1,0 +1,27 @@
+.container__card-A{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0em 5em;
+    gap: 2em;
+}
+
+.container__titulo{
+    padding-left: 2.25em;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.container__cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 1em 3em;
+    gap: 1em;
+}
+
+.container__card{
+    width: 260px;
+}
